@@ -1,2 +1,8 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+height = int(input("Enter height in centimeters"))
+if height <= 184:
+    print("You are a guard")
+elif height > 184 and height < 188:
+    print("You are a forward")
+else:
+    print("You are a big man")
+
